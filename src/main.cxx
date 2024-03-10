@@ -1,14 +1,10 @@
-#include <iostream>
-#include <cassert>
-#include <nanobench.h>
+#define GLM_FORCE_RADIANS
+#define GLM_FORCE_DEPTH_ZERO_TO_ONE
+#include <glm/vec4.hpp>
+#include <glm/mat4x4.hpp>
+#include <SDL2/SDL.h>
 
-int main() {
+
+auto main() -> int {
   
-
-  uint64_t x = 1;
-
-  ankerl::nanobench::Bench().run("++x", [&]() {
-    ankerl::nanobench::doNotOptimizeAway(x += 1);
-  });
-
 }

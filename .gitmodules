@@ -1,3 +1,6 @@
 [submodule "third-parties/nanobench"]
 	path = third-parties/nanobench
 	url = https://github.com/martinus/nanobench
+[submodule "third-parties/spdlog"]
+	path = third-parties/spdlog
+	url = https://github.com/gabime/spdlog

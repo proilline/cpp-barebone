@@ -1,0 +1,11 @@
+---
+Checks:          ''
+WarningsAsErrors: ''
+HeaderFilterRegex: '*'
+AnalyzeTemporaryDtors: false
+FormatStyle:     none
+User:            proilline
+CheckOptions:
+  llvm-else-after-return.WarnOnUnfixable: 'false'
+...
+

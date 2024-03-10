@@ -1,7 +1,7 @@
 ---
 Checks:          'clang-diagnostic-*,clang-analyzer-*,cppcoreguidelines-*,modernize-*'
 WarningsAsErrors: ''
-HeaderFilterRegex: ''
+HeaderFilterRegex: '^(?!(/SDL/|.*/gcc/).)*$'
 AnalyzeTemporaryDtors: false
 FormatStyle:     none
 User:            proilline

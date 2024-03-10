@@ -19,6 +19,16 @@
             buildInputs = with pkgs; [
               cmake
               pkg-config
+              
+              vulkan-headers
+              vulkan-loader
+              vulkan-tools
+              vulkan-validation-layers
+              glm
+
+              SDL2 # just for drawing windows
+              
+              shaderc # shader compiler
             ];
           };
       };
